@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 40px;
+            background-color: #569ee6;
+            color: #333;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 1px solid #df3c3c;
+        }
+
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>deva</h1>
+
+    <p><strong>Email:</strong> student@gmail.com</p>
+    <p><strong>Phone:</strong> +91 100108665</p>
+    <p><strong>Location:</strong> Hyderabad, India</p>
+
+    <hr>
+
+    <h2>About Me</h2>
+    <p>
+        I am a motivated individual with a passion for web development and design.<br>
+        My dream is to become a full-stack developer.<br>
+        I enjoy learning new technologies and solving real-world problems.
+    </p>
+
+    <h2>Education</h2>
+    <table>
+        <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>Bachelor of Engineering</td>
+            <td>CBIT</td>
+            <td>2022</td>
+        </tr>
+        <tr>
+            <td>Secondary Education</td>
+            <td>Narayana High School</td>
+            <td>2019</td>
+        </tr>
+    </table>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Data Structures</li>
+        <li>Python</li>
+        <li>Version Control (Git)</li>
+        <li>Responsive Web Design</li>
+    </ul>
+
+</body>
+</html>
